@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="city-filter" type="cityFilter"/>
+
+  <xs:complexType name="cityFilter">
+    <xs:sequence>
+      <xs:element name="page" type="xs:int"/>
+      <xs:element name="col" type="xs:int"/>
+      <xs:element name="safety" type="xs:int"/>
+      <xs:element name="population-min" type="xs:int"/>
+      <xs:element name="population-max" type="xs:int"/>
+      <xs:element name="languages" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+

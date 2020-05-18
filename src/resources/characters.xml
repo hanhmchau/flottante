@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--<characters>-->
+<!--    <character level="10">-->
+<!--        <name>Claudine S.</name>-->
+<!--        <classes>-->
+<!--            <class>Fighter</class>-->
+<!--            <class>Bard</class>-->
+<!--        </classes>-->
+<!--    </character>-->
+<!--    <character level="10">-->
+<!--        <name>Maya Tendou</name>-->
+<!--        <classes>-->
+<!--            <class>Paladin</class>-->
+<!--            <class>Bard</class>-->
+<!--            <class>Warlock</class>-->
+<!--        </classes>-->
+<!--    </character>-->
+<!--</characters>-->
+
+<cost-of-living>
+    <categories>
+        <entry>
+            <key>Light in the Air</key>
+            <value>
+                <items>
+                    <item>
+                        <title>Food for one day</title>
+                        <value>100</value>
+                    </item>
+                    <item>
+                        <title>Food for two days</title>
+                        <value>40.5</value>
+                    </item>
+                </items>
+            </value>
+        </entry>
+    </categories>
+</cost-of-living>

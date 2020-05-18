@@ -1,0 +1,45 @@
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1024px;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+.item {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #242729;
+    display: block;
+    width: 100px;
+}
+
+.full-bar {
+    height: 30px;
+    width: 350px;
+}
+
+.bar {
+    background-color: #3273dc;
+    height: 100%;
+    border-radius: 4px;
+    text-align: center;
+    color: #fafafb;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.pagination {
+    width: 100%;
+    text-align: center;
+}

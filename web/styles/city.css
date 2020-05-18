@@ -1,0 +1,38 @@
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1024px;
+    height: 100vh;
+    padding-top: 100px;
+}
+
+form {
+    width: 100%;
+}
+
+.sub-label {
+    font-size: 13px !important;
+    color: gray;
+}
+
+.languages {
+    margin-top: 20px;
+    column-count: 3;
+}
+
+.item {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.description {
+    width: 500px;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.submit {
+    width: 100%;
+    text-align: center;
+}

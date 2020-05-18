@@ -1,0 +1,46 @@
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1024px;
+    height: 100vh;
+}
+
+button a {
+    text-decoration: none;
+    color: unset;
+}
+
+.container {
+    padding-top: 200px;
+}
+
+.links {
+}
+
+.title {
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.subtitle {
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 600px;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 500px;
+}
+
+.button {
+    margin-right: 20px;
+}

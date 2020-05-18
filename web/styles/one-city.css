@@ -1,0 +1,48 @@
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1024px;
+    padding: 100px 0;
+    flex-direction: column;
+}
+
+.info, .col {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.info .item {
+    margin: 10px;
+}
+
+.title {
+    font-size: 48px;
+}
+
+.country {
+    margin: 20px;
+    font-size: 16px;
+}
+
+.title, .country, .images {
+    text-align: center;
+}
+
+.images img {
+    height: 200px;
+}
+
+.cat-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cat-title .inner {
+    padding-left: 20px;
+}
+
+.col-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
